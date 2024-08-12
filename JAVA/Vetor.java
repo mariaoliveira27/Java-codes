@@ -27,5 +27,6 @@ public class Vetor {
         for(int i = 0; i<15; i++){
             System.out.print(B[i]+"");
         }
+        scanner.close();
     }
 }
