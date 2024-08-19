@@ -3,9 +3,9 @@ import java.io.FileOutputStream;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 
-public class ArquivoTexto {
-    public static void main(String[] args) {
-        String path = "./JAVA/arq.txt";
+public class Arquivo {
+       public static void main(String[] args) {
+        String path = "C:/Users/maria/OneDrive/Área de Trabalho/JAVA/Java-codes/JAVA/Arqu.txt";
 
         try {
             OutputStream os = new FileOutputStream(path);
@@ -27,7 +27,7 @@ public class ArquivoTexto {
             br.write("Outra Linha!");
             br.close();
         } catch (Exception e) {
-            
+            e.printStackTrace();
         }
     }
 }
